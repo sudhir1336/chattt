@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".semesters">
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="sem1"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bttncorners"
+        android:textColor="#ffff"
+        android:id="@+id/sem1"
+        android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="sem2"
+            android:id="@+id/sem2"
+            android:background="@drawable/bttncorners"
+            android:textColor="#ffff"
+            android:layout_below="@id/sem1"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="sem3"
+            android:background="@drawable/bttncorners"
+            android:textColor="#ffff"
+            android:id="@+id/sem3"
+            android:layout_below="@id/sem2"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="sem4"
+            android:id="@+id/sem4"
+            android:background="@drawable/bttncorners"
+            android:textColor="#ffff"
+            android:layout_below="@id/sem3"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="sem5"
+            android:id="@+id/sem5"
+            android:layout_below="@id/sem4"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bttncorners"
+            android:textColor="#ffff"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="sem6"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bttncorners"
+            android:textColor="#ffff"
+            android:id="@+id/sem6"
+            android:layout_below="@id/sem5"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</RelativeLayout>
